@@ -59,8 +59,15 @@
 }
 
 -(void)openMenuWithAnimation:(UIButton *)button withIndex:(int)index{
+    float delay = 0;
+    if (index%2==0) {
+        delay = 0.1*index;
+    }
+    else {
+        delay = 0.1*(index-1);
+    }
     [UIView animateWithDuration:0.25
-                          delay:0.1*index
+                          delay:delay
                         options:UIViewAnimationOptionCurveEaseOut
                      animations:^(void){
                          CGRect frame = button.frame;
@@ -78,8 +85,15 @@
 }
 
 -(void)closeMenuWithAnimation:(UIButton *)button withIndex:(int)index{
+    float delay = 0;
+    if (index%2==0) {
+        delay = 0.1*index;
+    }
+    else {
+        delay = 0.1*(index-1);
+    }
     [UIView animateWithDuration:0.25
-                          delay:0.1*index
+                          delay:delay
                         options:UIViewAnimationOptionCurveEaseOut
                      animations:^(void){
                          CGRect frame = button.frame;
