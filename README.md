@@ -15,8 +15,13 @@ Contact
 
 Demo
 --------------
-
 Build and run the project in Xcode.
+
+Screens
+--------------
+![1](http://s5.postimg.org/er8fguflj/i_OS_Simulator_Screen_shot_Jul_26_2013_2_08_34_A.png)
+![2](http://s5.postimg.org/wwlduwf3r/i_OS_Simulator_Screen_shot_Jul_26_2013_2_07_46_A.png)
+![3](http://s5.postimg.org/57yqnds3b/i_OS_Simulator_Screen_shot_Jul_26_2013_2_07_50_A.png)
 
 in ViewController.h
 --------------
